@@ -1,0 +1,33 @@
+{
+	"name": "@iizuna/pwned-passwords",
+	"version": "1.0.0",
+	"description": "Pwned Passwords component for the iizuna Framework",
+	"main": "lib/main.js",
+	"types": "lib/main.d.ts",
+	"license": "ISC",
+	"scripts": {
+		"build": "tsc",
+		"prepare": "npm run build",
+		"npm-install": "npm install",
+		"test": "nyc mocha -r ts-node/register -r jsdom-global/register tests/unit/**/*.spec.ts tests/unit/*.spec.ts"
+	},
+	"author": "Tim Rücker",
+	"dependencies": {
+		"@types/es6-promise": "^3.3.0",
+		"iizuna": "^3.5.0"
+	},
+	"devDependencies": {
+		"@types/chai": "^4.2.3",
+		"@types/mocha": "^5.2.6",
+		"@types/node-fetch": "^2.5.2",
+		"chai": "^4.2.0",
+		"cross-fetch": "^3.0.4",
+		"jsdom": "^13.2.0",
+		"jsdom-global": "^3.0.2",
+		"mocha": "^5.2.0",
+		"node-fetch": "^2.6.0",
+		"nyc": "^14.1.1",
+		"ts-node": "^7.0.1",
+		"typescript": "^3.4.5"
+	}
+}
