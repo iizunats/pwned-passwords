@@ -22,7 +22,7 @@
 		"@types/node-fetch": "^2.5.2",
 		"chai": "^4.2.0",
 		"cross-fetch": "^3.0.4",
-		"jsdom": "^13.2.0",
+		"jsdom": "^16.5.0",
 		"jsdom-global": "^3.0.2",
 		"mocha": "^5.2.0",
 		"node-fetch": "^2.6.0",
